@@ -429,7 +429,7 @@
   }
   
   .footer-link:hover {
-    color: white;
+    color: #f4c920;
   }
   
   .footer-bottom {
@@ -441,7 +441,7 @@
   }
   
   .copyright {
-    color: rgba(255, 255, 255, 0.7);
+    color: #f4c920(255, 255, 255, 0.7);
     font-size: 0.9rem;
   }
   
@@ -457,7 +457,7 @@
     width: 40px;
     height: 40px;
     background-color: rgba(255, 255, 255, 0.1);
-    color: white;
+    color: #f4c920;
     border-radius: 50%;
     transition: var(--transition);
   }
