@@ -80,3 +80,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Check on scroll
     window.addEventListener('scroll', revealOnScroll);
   });
+  document.getElementById("multiMobile").addEventListener("click", function (event) {
+    event.preventDefault(); // منع السلوك الافتراضي للرابط
+    window.location.href = "index.html"; // توجيه المستخدم إلى الصفحة الرئيسية
+  });
+  
